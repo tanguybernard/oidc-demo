@@ -4,7 +4,7 @@
   "scripts": {
     "ng": "ng",
     "start": "ng serve",
-    "start-https-c": "ng serve  --host client24.local.com --port 4200 --ssl true --ssl-cert \"/Users/tanguybernard/Project/Perso/OIDC-server/oidc-client-angular/client24.local.com.pem\" --ssl-key \"/Users/tanguybernard/Project/Perso/OIDC-server/oidc-client-angular/client24.local.com-key.pem\"",
+    "start-https-c": "ng serve  --host client24.local.com --port 4200 --ssl true --ssl-cert \"/Users/tanguybernard/Project/Perso/OIDC-server/client/client24.local.com.pem\" --ssl-key \"/Users/tanguybernard/Project/Perso/OIDC-server/client/client24.local.com-key.pem\"",
     "start-https": "ng serve --ssl",
     "build": "ng build",
     "watch": "ng build --watch --configuration development",

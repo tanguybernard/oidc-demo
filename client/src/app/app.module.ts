@@ -5,12 +5,13 @@ import {HTTP_INTERCEPTORS, HttpClientModule} from "@angular/common/http";
 import {AppRoutingModule} from "./app-routing.module";
 import {AuthModule} from "./auth/auth.module";
 import {HomeComponent} from "./home/home.component";
-import {ExampleInterceptor} from "./example.interceptor";
+import {NewsComponent} from "./news/news.component";
 
 @NgModule({
   declarations: [
     AppComponent,
       HomeComponent,
+      NewsComponent
   ],
   imports: [
     BrowserModule,
