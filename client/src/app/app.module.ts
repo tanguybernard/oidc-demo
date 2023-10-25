@@ -3,9 +3,9 @@ import {AppComponent} from "./app.component";
 import {BrowserModule} from "@angular/platform-browser";
 import {HTTP_INTERCEPTORS, HttpClientModule} from "@angular/common/http";
 import {AppRoutingModule} from "./app-routing.module";
-import {AuthModule} from "./auth/auth.module";
 import {HomeComponent} from "./home/home.component";
 import {NewsComponent} from "./news/news.component";
+import {OAuthModule} from "angular-oauth2-oidc";
 
 @NgModule({
   declarations: [
@@ -16,7 +16,7 @@ import {NewsComponent} from "./news/news.component";
   imports: [
     BrowserModule,
     HttpClientModule,
-    AuthModule,
+      OAuthModule.forRoot(),
     AppRoutingModule
   ],
   bootstrap: [AppComponent],

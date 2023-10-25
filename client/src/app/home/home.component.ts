@@ -1,5 +1,4 @@
 import {Component, OnInit} from '@angular/core';
-import {InitialAuthService} from "../auth/auth.service";
 import {OAuthService} from "angular-oauth2-oidc";
 
 @Component({
